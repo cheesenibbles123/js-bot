@@ -2,9 +2,9 @@
 
 Welcome! This repo contains the basic template code that allows you to easily setup an expandable discord bot. Documentation can be found at the following locations:
 
-- [**Commands**](https://github.com/cheesenibbles123/js-bot/tree/main/commands)
-- [**Events**](https://github.com/cheesenibbles123/js-bot/tree/main/events)
-- [**Interactions**](https://github.com/cheesenibbles123/js-bot/tree/main/interactions)
+- [**Commands**](https://github.com/cheesenibbles123/js-bot/tree/master/commands)
+- [**Events**](https://github.com/cheesenibbles123/js-bot/tree/master/events)
+- [**Interactions**](https://github.com/cheesenibbles123/js-bot/tree/master/interactions)
 
 ## Inital Setup
 
