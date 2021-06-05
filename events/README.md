@@ -19,4 +19,4 @@ module.exports = {
 }
 ```
 
-**Note:** You cannot have two events that have the same name, should this occur the [**Event Handler**](https://github.com/cheesenibbles123/WaffleBot/blob/main/eventHandler.js) will notify you in the console that it was unable to load the event.
+**Note:** You cannot have two events that have the same name, should this occur the [**Event Handler**](https://github.com/cheesenibbles123/js-bot/blob/main/eventHandler.js) will notify you in the console that it was unable to load the event.

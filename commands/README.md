@@ -27,4 +27,4 @@ module.exports = {
 }
 ```
 
-Any not required fields should be removed to ensure correct implementation. **Note:** You cannot have two commands that have the same name, should this occur the [**Command Handler**](https://github.com/cheesenibbles123/WaffleBot/blob/main/commandHandler.js) will notify you in the console that it was unable to load the command.
+Any not required fields should be removed to ensure correct implementation. **Note:** You cannot have two commands that have the same name, should this occur the [**Command Handler**](https://github.com/cheesenibbles123/js-bot/blob/main/commandHandler.js) will notify you in the console that it was unable to load the command.
