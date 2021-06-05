@@ -10,14 +10,18 @@ bot.on("ready", () => {
 	// Wafflebot is ready!
 	commands.init(bot);
 	events.init(bot);
-	bot.user.setActivity(config.activity); // Set "Playing XXX"
-	console.log(bot.user.username + ' is ready to distribute waffles!');
+	interactions.init(bot);
+	bot.user.setActivity("Chilling"); // Set "Playing XXX"
+	console.log(bot.user.username + ' is ready!');
 });
 
 bot.on("message", async message => {
 	
 	// Ignore bots
 	if (message.author.bot) return;
+
+	// Random + intentional interactions + reactions
+	interactions.handler(message);
 
 	// Ignore if it doesnt start with the provided prefix
 	if (!message.content.startsWith(config.prefix)) return;
@@ -41,6 +45,6 @@ bot.on("raw", async event => {
 });
 
 bot.on('error', console.error);
-//bot.on('debug', console.log) // Uncomment to see debug information
+//bot.on('debug', console.log) // Uncomment to see debug info
 bot.on("warn", (e) => console.warn(e));
 bot.login(config.token);
