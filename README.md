@@ -20,4 +20,10 @@ On completion you will want to run the following
 npm install
 ```
 
-After this you'll want to edit the **config.json**, **Package.json** and **index.js** files, to setup **Bot token, prefix** and **package name, description, author** as well as **bot status** respectivley.
+After this you'll want to edit the **config.json**, **Package.json** and **index.js** files, to setup **Bot token, prefix** and **package name, description, author** as well as **bot status** respectivley. Once this is complete simply run
+
+```bash
+node index.js
+```
+
+and your bot should start! Use the provided **ping** command to test it out!
